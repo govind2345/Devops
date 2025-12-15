@@ -1,0 +1,18 @@
+paths:
+  train_data: "data/network_train.csv"
+  test_data: "data/network_test.csv"
+  model_dir: "models"
+  metrics_dir: "metrics"
+
+columns:
+  id: ["src_ip", "dst_ip", "src_port", "dst_port", "protocol"]
+  numeric: ["packet_count", "byte_count", "duration", "packet_rate"]
+  label: "label"
+
+training:
+  contamination: 0.05
+  random_state: 42
+  n_estimators: 200
+
+monitoring:
+  drift_alert_threshold: 0.15

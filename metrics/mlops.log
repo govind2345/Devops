@@ -1,0 +1,102 @@
+2025-12-11 16:07:42,518 - INFO - Training started
+2025-12-11 16:07:42,539 - INFO - Config loaded from config.yaml
+2025-12-11 16:07:42,539 - INFO - Loading training data from data/network_train.csv
+2025-12-11 16:07:42,570 - INFO - Using 4 normal samples out of 6
+2025-12-11 16:07:42,570 - INFO - Fitting model...
+2025-12-11 16:07:43,083 - INFO - Saved versioned model: models\versions\model_v20251211_103742.joblib
+2025-12-11 16:07:43,084 - INFO - Updated latest model: models\model_latest.joblib
+2025-12-11 16:07:43,085 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-11 16:07:43,154 - INFO - ROC-AUC: 0.2381
+2025-12-11 16:07:43,155 - INFO - Training metrics saved to metrics\training_metrics_20251211_103742.json
+2025-12-11 16:07:43,155 - INFO - Training completed successfully
+2025-12-11 16:10:20,956 - WARNING - Drift detected — retraining started.
+2025-12-11 16:10:20,956 - INFO - Training started
+2025-12-11 16:10:20,956 - INFO - Config loaded from config.yaml
+2025-12-11 16:10:20,956 - INFO - Loading training data from data/network_train.csv
+2025-12-11 16:10:20,956 - INFO - Using 4 normal samples out of 6
+2025-12-11 16:10:20,956 - INFO - Fitting model...
+2025-12-11 16:10:21,602 - INFO - Saved versioned model: models\versions\model_v20251211_104021.joblib
+2025-12-11 16:10:21,602 - INFO - Updated latest model: models\model_latest.joblib
+2025-12-11 16:10:21,602 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-11 16:10:21,661 - INFO - ROC-AUC: 0.2381
+2025-12-11 16:10:21,663 - INFO - Training metrics saved to metrics\training_metrics_20251211_104021.json
+2025-12-11 16:10:21,663 - INFO - Training completed successfully
+2025-12-11 16:10:21,663 - INFO - Retraining completed.
+2025-12-11 16:12:40,528 - INFO - === MLOps Pipeline Started ===
+2025-12-11 16:12:40,528 - INFO - Training started
+2025-12-11 16:12:40,528 - INFO - Config loaded from config.yaml
+2025-12-11 16:12:40,544 - INFO - Loading training data from data/network_train.csv
+2025-12-11 16:12:40,544 - INFO - Using 4 normal samples out of 6
+2025-12-11 16:12:40,544 - INFO - Fitting model...
+2025-12-11 16:12:40,910 - INFO - Saved versioned model: models\versions\model_v20251211_104240.joblib
+2025-12-11 16:12:40,910 - INFO - Updated latest model: models\model_latest.joblib
+2025-12-11 16:12:40,910 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-11 16:12:40,941 - INFO - ROC-AUC: 0.2381
+2025-12-11 16:12:40,941 - INFO - Training metrics saved to metrics\training_metrics_20251211_104240.json
+2025-12-11 16:12:40,941 - INFO - Training completed successfully
+2025-12-11 16:12:41,058 - WARNING - Drift detected — retraining started.
+2025-12-11 16:12:41,058 - INFO - Training started
+2025-12-11 16:12:41,058 - INFO - Config loaded from config.yaml
+2025-12-11 16:12:41,058 - INFO - Loading training data from data/network_train.csv
+2025-12-11 16:12:41,068 - INFO - Using 4 normal samples out of 6
+2025-12-11 16:12:41,068 - INFO - Fitting model...
+2025-12-11 16:12:41,416 - INFO - Saved versioned model: models\versions\model_v20251211_104241.joblib
+2025-12-11 16:12:41,416 - INFO - Updated latest model: models\model_latest.joblib
+2025-12-11 16:12:41,431 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-11 16:12:41,447 - INFO - ROC-AUC: 0.2381
+2025-12-11 16:12:41,447 - INFO - Training metrics saved to metrics\training_metrics_20251211_104241.json
+2025-12-11 16:12:41,447 - INFO - Training completed successfully
+2025-12-11 16:12:41,447 - INFO - Retraining completed.
+2025-12-11 16:12:41,447 - INFO - === MLOps Pipeline Completed ===
+2025-12-15 07:56:15,248 - INFO - === MLOps Pipeline Started ===
+2025-12-15 07:56:15,249 - INFO - Training started
+2025-12-15 07:56:15,252 - INFO - Config loaded from config.yaml
+2025-12-15 07:56:15,253 - INFO - Loading training data from data/network_train.csv
+2025-12-15 07:56:15,263 - INFO - Using 4 normal samples out of 6
+2025-12-15 07:56:15,264 - INFO - Fitting model...
+2025-12-15 07:56:16,246 - INFO - Saved versioned model: models/versions/model_v20251215_075621.joblib
+2025-12-15 07:56:16,247 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 07:56:16,251 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 07:56:16,276 - INFO - ROC-AUC: 0.2381
+2025-12-15 07:56:16,283 - INFO - Training metrics saved to metrics/training_metrics_20251215_075621.json
+2025-12-15 07:56:16,283 - INFO - Training completed successfully
+2025-12-15 07:56:16,554 - WARNING - Drift detected â€” retraining started.
+2025-12-15 07:56:16,555 - INFO - Training started
+2025-12-15 07:56:16,557 - INFO - Config loaded from config.yaml
+2025-12-15 07:56:16,559 - INFO - Loading training data from data/network_train.csv
+2025-12-15 07:56:16,573 - INFO - Using 4 normal samples out of 6
+2025-12-15 07:56:16,574 - INFO - Fitting model...
+2025-12-15 07:56:17,875 - INFO - Saved versioned model: models/versions/model_v20251215_075616.joblib
+2025-12-15 07:56:17,876 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 07:56:17,879 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 07:56:17,905 - INFO - ROC-AUC: 0.2381
+2025-12-15 07:56:17,912 - INFO - Training metrics saved to metrics/training_metrics_20251215_075616.json
+2025-12-15 07:56:17,913 - INFO - Training completed successfully
+2025-12-15 07:56:17,914 - INFO - Retraining completed.
+2025-12-15 07:56:17,915 - INFO - === MLOps Pipeline Completed ===
+2025-12-15 08:03:13,459 - INFO - === MLOps Pipeline Started ===
+2025-12-15 08:03:13,461 - INFO - Training started
+2025-12-15 08:03:13,463 - INFO - Config loaded from config.yaml
+2025-12-15 08:03:13,465 - INFO - Loading training data from data/network_train.csv
+2025-12-15 08:03:13,477 - INFO - Using 4 normal samples out of 6
+2025-12-15 08:03:13,478 - INFO - Fitting model...
+2025-12-15 08:03:14,470 - INFO - Saved versioned model: models/versions/model_v20251215_080313.joblib
+2025-12-15 08:03:14,471 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 08:03:14,474 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 08:03:14,511 - INFO - ROC-AUC: 0.2381
+2025-12-15 08:03:14,518 - INFO - Training metrics saved to metrics/training_metrics_20251215_080313.json
+2025-12-15 08:03:14,518 - INFO - Training completed successfully
+2025-12-15 08:03:14,936 - WARNING - Drift detected â€” retraining started.
+2025-12-15 08:03:14,936 - INFO - Training started
+2025-12-15 08:03:14,938 - INFO - Config loaded from config.yaml
+2025-12-15 08:03:14,939 - INFO - Loading training data from data/network_train.csv
+2025-12-15 08:03:14,945 - INFO - Using 4 normal samples out of 6
+2025-12-15 08:03:14,946 - INFO - Fitting model...
+2025-12-15 08:03:15,872 - INFO - Saved versioned model: models/versions/model_v20251215_080321.joblib
+2025-12-15 08:03:15,872 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 08:03:15,873 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 08:03:15,895 - INFO - ROC-AUC: 0.2381
+2025-12-15 08:03:15,906 - INFO - Training metrics saved to metrics/training_metrics_20251215_080321.json
+2025-12-15 08:03:15,907 - INFO - Training completed successfully
+2025-12-15 08:03:15,908 - INFO - Retraining completed.
+2025-12-15 08:03:15,909 - INFO - === MLOps Pipeline Completed ===
