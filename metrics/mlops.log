@@ -100,3 +100,29 @@
 2025-12-15 08:03:15,907 - INFO - Training completed successfully
 2025-12-15 08:03:15,908 - INFO - Retraining completed.
 2025-12-15 08:03:15,909 - INFO - === MLOps Pipeline Completed ===
+2025-12-15 08:20:39,156 - INFO - === MLOps Pipeline Started ===
+2025-12-15 08:20:39,157 - INFO - Training started
+2025-12-15 08:20:39,160 - INFO - Config loaded from config.yaml
+2025-12-15 08:20:39,161 - INFO - Loading training data from data/network_train.csv
+2025-12-15 08:20:39,177 - INFO - Using 4 normal samples out of 6
+2025-12-15 08:20:39,179 - INFO - Fitting model...
+2025-12-15 08:20:40,578 - INFO - Saved versioned model: models/versions/model_v20251215_082039.joblib
+2025-12-15 08:20:40,579 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 08:20:40,583 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 08:20:40,621 - INFO - ROC-AUC: 0.2381
+2025-12-15 08:20:40,627 - INFO - Training metrics saved to metrics/training_metrics_20251215_082039.json
+2025-12-15 08:20:40,628 - INFO - Training completed successfully
+2025-12-15 08:20:41,137 - WARNING - Drift detected — retraining started.
+2025-12-15 08:20:41,138 - INFO - Training started
+2025-12-15 08:20:41,141 - INFO - Config loaded from config.yaml
+2025-12-15 08:20:41,143 - INFO - Loading training data from data/network_train.csv
+2025-12-15 08:20:41,157 - INFO - Using 4 normal samples out of 6
+2025-12-15 08:20:41,158 - INFO - Fitting model...
+2025-12-15 08:20:42,520 - INFO - Saved versioned model: models/versions/model_v20251215_082041.joblib
+2025-12-15 08:20:42,521 - INFO - Updated latest model: models/model_latest.joblib
+2025-12-15 08:20:42,524 - INFO - Running evaluation on test data: data/network_test.csv
+2025-12-15 08:20:42,563 - INFO - ROC-AUC: 0.2381
+2025-12-15 08:20:42,571 - INFO - Training metrics saved to metrics/training_metrics_20251215_082041.json
+2025-12-15 08:20:42,572 - INFO - Training completed successfully
+2025-12-15 08:20:42,573 - INFO - Retraining completed.
+2025-12-15 08:20:42,574 - INFO - === MLOps Pipeline Completed ===
